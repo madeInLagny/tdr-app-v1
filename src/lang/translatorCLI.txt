@@ -1,0 +1,4 @@
+https://github.com/mololab/json-translator
+
+CLI has been installed globally
+Type: jsontt src/lang/en/jocelyn-montpert.json --module google --from en --to ar fr zh-CN

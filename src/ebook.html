@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<!-- Lang is required by Cookie Consent -->
+<html
+  dir="ltr"
+  lang="${{ common.language }}$"
+  xmlns:og="http://opengraphprotocol.org/schema/"
+>
+  <head>
+    <!-- Google Tag Manager modified to comply with cookie consent-->
+    @@include('blocks/cookieConsent/headScript.html')
+    <!-- End Google Tag Manager -->
+
+    <!-- SEO Metatags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
+
+    <title>${{ ebook.title }}$</title>
+    <meta
+      name="description"
+      content="${{ ebook.description }}$"
+      xmlns:og="http://opengraphprotocol.org/schema/"
+    />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta property="og:locale" content="${{ common.language }}$" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="${{ ebook.title }}$"
+      xmlns:og="http://opengraphprotocol.org/schema/"
+    />
+    <meta
+      property="og:description"
+      content="${{ ebook.description }}$"
+      xmlns:og="http://opengraphprotocol.org/schema/"
+    />
+    <meta
+      property="og:url"
+      content="${{ ebook.url }}$"
+      xmlns:og="http://opengraphprotocol.org/schema/"
+    />
+    <meta property="og:site_name" content="TradeDutyRefund.com" />
+    <meta
+      property="og:image"
+      content="https://tradedutyrefund.com/images/tdr/OGImage.jpg"
+      xmlns:og="http://opengraphprotocol.org/schema/"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:image"
+      content="https://tradedutyrefund.com/images/tdr/OGImage.jpg"
+    />
+    <meta property="twitter:domain" content="tradedutyrefund.com" />
+    <meta property="twitter:url" content="https://tradedutyrefund.com" />
+    <meta name="twitter:title" content="${{ ebook.title }}$" />
+    <meta name="twitter:description" content="${{ ebook.description }}$" />
+    <meta
+      name="twitter:image"
+      content="https://tradedutyrefund.com/images/tdr/OGImage.jpg"
+    />
+
+    <!-- CSS imports -->
+    @@include('blocks/cssImports.html')
+    <!-- end of CSS imports -->
+
+    <!-- HREF -->
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://tradeDutyRefund.com/ebook.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="fr"
+      href="https://fr.tradeDutyRefund.com/ebook.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="it"
+      href="https://it.tradeDutyRefund.com/ebook.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://tradeDutyRefund.com/ebook.html"
+    />
+
+    <style>
+      body {
+        height: 100dvh;
+      }
+
+      @media (min-width: 992px) {
+        .morph-marker {
+          --cnvs-morph-height: 3px;
+          --cnvs-morph-duration: 0.3s;
+          position: absolute;
+          display: block;
+          background: var(--cnvs-themecolor);
+          height: var(--cnvs-morph-height);
+          border-radius: var(--bs-border-radius);
+          transition: all var(--cnvs-morph-duration);
+        }
+
+        .morph-bg .morph-marker {
+          --cnvs-morph-height: 100%;
+          opacity: 0.1;
+          bottom: 0 !important;
+        }
+
+        .morph-bg .menu-link {
+          position: relative;
+          --cnvs-primary-menu-padding-y: 11px;
+          --cnvs-primary-menu-hover-color: var(--cnvs-primary-menu-color);
+          z-index: 1;
+        }
+      }
+      .fitsHeight {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .cnvs-hamburger {
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+      }
+
+      html body .formPanel {
+        width: 100%;
+        max-width: 768px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 2rem 1.5rem;
+        background-color: #d8dbce;
+      }
+      @media (min-width: 768px) {
+        html body .formPanel {
+          flex-direction: row;
+          align-items: center;
+        }
+      }
+      html body .formPanel .cta-form {
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+      @media (min-width: 768px) {
+        html body .formPanel .cta-form {
+          margin-bottom: 0;
+          margin-right: 2rem;
+          text-align: left;
+        }
+      }
+      html body .formPanel .cta-form h2 {
+        font-size: 1.5rem;
+        width: 100%;
+        max-width: 25ch;
+        margin: 0 auto;
+        text-align: center;
+      }
+      @media (min-width: 768px) {
+        html body .formPanel .cta-form h2 {
+          text-align: left;
+          margin: 0;
+        }
+      }
+      html body .formPanel .cta-form p {
+        margin-top: 1rem;
+        font-size: 1rem;
+        width: 100%;
+        max-width: 24ch;
+      }
+      html .form {
+        align-self: center;
+      }
+      html .form__input {
+        width: clamp(120px, 50vw, 420px);
+        height: 2.5rem;
+        padding: 0 1.25rem;
+        border: 1px solid #303030;
+        border-radius: 2px;
+        margin: 0.625rem auto;
+        transition: all 250ms;
+        /* When the input field (.form__input) is in focus,
+     transform the .form__label and change colors*/
+        /* ALSO, if the input field's placeholder is NOT shown (when the input field has content),
+     transform the .form__label and change colors. */
+        /* THIS PART IS IMPORTANT!! */
+        /* The block below hides the placeholder entirely. */
+        /* For all intents and purposes, the placeholder no longer exists. */
+        /* What shows on the input field is only the label*. */
+        /* HOWEVER, the input fields still recognizes that the placeholder exists!*/
+        /* The placeholder is just invisible. We need the placeholder to exist for
+     some weird CSS stuff. If we skip this, we can't make it CSS-only. */
+        /* When the placeholder is NOT shown,
+     style the top border. */
+        /* This makes the top border fade-out when the placeholder disappears. */
+      }
+      @media (min-width: 768px) {
+        html .form__input {
+          width: clamp(120px, 35vw, 420px);
+        }
+      }
+      html .form__input:focus {
+        outline: none;
+        border-top-color: rgba(0, 0, 0, 0.1);
+      }
+      html .form__input:focus + .form__label,
+      html .form__input:not(:placeholder-shown) + .form__label {
+        transform: translateY(-4.5rem) scale(1);
+        color: #303030;
+      }
+      html .form__input::placeholder {
+        display: none;
+        color: transparent;
+        -webkit-user-select: none;
+        /* Safari */
+        -ms-user-select: none;
+        /* IE 10 and IE 11 */
+        user-select: none;
+        /* Standard syntax */
+      }
+      html .form__input:not(:placeholder-shown) {
+        border-top-color: rgba(0, 0, 0, 0.5);
+      }
+      html .form__label {
+        font-size: 1rem;
+        color: #909090;
+        display: block;
+        /* Moves the label on TOP of the placeholder */
+        /* You'll need to change this as needed */
+        transform: translate(1.25rem, -2.5rem);
+        transform-origin: 0 0;
+        /* Used later for transitions */
+        transition: all 500ms;
+        -webkit-user-select: none;
+        /* Safari */
+        -ms-user-select: none;
+        /* IE 10 and IE 11 */
+        user-select: none;
+        /* Standard syntax */
+        /* THIS PART IS IMPORTANT! */
+        /* This line prevents the label from being selected.*/
+        /* This is crucial because if this line doesn't exist, users can
+     click on the label, instead of the input field. That's bad UX! */
+        pointer-events: none;
+      }
+    </style>
+  </head>
+
+  <body class="stretched block-nav-header">
+    <!-- Document Wrapper
+    ============================================= -->
+    <div id="wrapper" class="fitsHeight">
+      <!-- Header
+      ============================================= -->
+      <header id="header" class="header-size-md">
+        <div id="header-wrap" class="border-bottom-0">
+          <div class="container position-relative">
+            <div class="header-row justify-content-center">
+              <!-- Primary Navigation icon in mobile
+              ============================================= -->
+              <div class="primary-menu-trigger">
+                <button
+                  class="cnvs-hamburger"
+                  type="button"
+                  title="Open Mobile Menu"
+                >
+                  Menu
+                  <span class="cnvs-hamburger-box"
+                    ><span class="cnvs-hamburger-inner"></span
+                  ></span>
+                </button>
+              </div>
+
+              <!-- Primary Navigation
+              ============================================= -->
+              <nav class="primary-menu">
+                <ul class="menu-container">
+                  <li class="menu-item current">
+                    <a class="menu-link" href="/"
+                      ><div>Visit TradeDutyRefund.com</div></a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a href class="menu-link" onclick="sharePage()">
+                      <div>Share This Page</div>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="https://zcal.co/jmontpert/websiteLink"
+                      ><div>Schedule an introduction call</div></a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a
+                      class="menu-link"
+                      href="https://www.linkedin.com/company/trade-duty-refund"
+                      ><div>Follow us on LinkedIn</div></a
+                    >
+                  </li>
+                  <div class="morph-marker"></div>
+                </ul>
+              </nav>
+              <!-- #primary-menu end -->
+            </div>
+          </div>
+        </div>
+        <div class="header-wrap-clone"></div>
+      </header>
+      <!-- #header end -->
+      <div class="container formPanel">
+        <div class="cta-form">
+          <h2>Unlock Your Customs Duty Refund: Free eBook Download</h2>
+          <p>
+            Enter your name and email to receive our comprehensive eBook,
+            detailing how to reclaim customs duties in the UK, EU, and US. This
+            practical guide covers eligibility criteria, step-by-step
+            instructions, and includes a helpful glossary of key terms.
+          </p>
+        </div>
+        <!-- Make sure you don't change the form action-->
+        <form
+          action="https://api.staticforms.xyz/submit"
+          method="post"
+          class="form"
+        >
+          <!-- Replace with accesKey sent to your email -->
+          <input
+            type="hidden"
+            name="accessKey"
+            value="e86b9da0-06b6-4d49-a19d-0825c9b33446"
+          />
+          <input
+            type="text"
+            placeholder="First Name"
+            class="form__input"
+            name="$firstName"
+            id="inputFirstName"
+          />
+          <label for="inputFirstName" class="form__label">First Name</label>
+
+          <input
+            type="text"
+            placeholder="Name"
+            class="form__input"
+            name="name"
+            id="inputName"
+          />
+          <label for="inputName" class="form__label">Name</label>
+
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            class="form__input"
+            id="inputEmail"
+          />
+          <label for="inputEmail" class="form__label">Email</label>
+
+          <!-- If you want form to redirect to a specific url after submission -->
+          <input
+            type="hidden"
+            name="redirectTo"
+            value="https://tradedutyrefund.com/formSubmitSuccess"
+          />
+          <!-- Optional -->
+          <input type="submit" value="Submit" class="btn btn-primary" />
+        </form>
+      </div>
+      Missing: GDPR
+    </div>
+    <!-- #wrapper end -->
+
+    <!-- Design: https://codepen.io/kvncnls/pen/MWmJaPw -->
+
+    <!-- JavaScripts
+    ============================================= -->
+    <script src="js/jquery.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+    <!-- CookieConsentJs -->
+    @@include('blocks/cookieConsent/cookieConsentScript.html')
+
+    <!-- Tawk Chatbox -->
+    @@include('blocks/tawk.html')
+
+    <script>
+      jQuery(window).on("load", function () {
+        jQuery(".primary-menu").each(function () {
+          let menuEl = jQuery(this),
+            marker = menuEl.find(".morph-marker"),
+            current = menuEl.find(".current");
+
+          // Initialize the marker position and the active class
+          current.addClass("active");
+
+          marker.css({
+            // Place the marker in the middle of the border
+            bottom: -(marker.height() / 2),
+            left: current.position().left,
+            width: current.outerWidth(),
+          });
+
+          if (Modernizr.csstransitions) {
+            // console.log("using css3 transitions");
+            menuEl.find(".menu-item").mouseover(function () {
+              var self = jQuery(this),
+                offsetLeft = self.position().left,
+                // Use the element under the pointer OR the current page item
+                width = self.outerWidth() || current.outerWidth(),
+                // Ternary operator, because if using OR when offsetLeft is 0, it is considered a falsy value, thus causing a bug for the first element.
+                left =
+                  offsetLeft == 0 ? 0 : offsetLeft || current.position().left;
+              // Play with the active class
+              menuEl.find(".active").removeClass("active");
+              self.addClass("active");
+              marker.css({
+                left: left,
+                width: width,
+              });
+            });
+
+            // When the mouse leaves the menu
+            menuEl.find(".menu-container").mouseleave(function () {
+              // remove all active classes, add active class to the current page item
+              menuEl.find(".active").removeClass("active");
+              current.addClass("active");
+              // reset the marker to the current page item position and width
+              marker.css({
+                left: current.position().left,
+                width: current.outerWidth(),
+              });
+            });
+          } else {
+            menuEl.find(".menu-item").mouseover(function () {
+              var self = jQuery(this),
+                offsetLeft = self.position().left,
+                // Use the element under the pointer OR the current page item
+                width = self.outerWidth() || current.outerWidth(),
+                // Ternary operator, because if using OR when offsetLeft is 0, it is considered a falsy value, thus causing a bug for the first element.
+                left =
+                  offsetLeft == 0 ? 0 : offsetLeft || current.position().left;
+              // Play with the active class
+              menuEl.find(".active").removeClass("active");
+              self.addClass("active");
+              marker.stop().animate(
+                {
+                  left: left,
+                  width: width,
+                },
+                300
+              );
+            });
+
+            // When the mouse leaves the menu
+            menuEl.find(".menu-container").mouseleave(function () {
+              // remove all active classes, add active class to the current page item
+              menuEl.find(".active").removeClass("active");
+              current.addClass("active");
+              // reset the marker to the current page item position and width
+              marker.stop().animate(
+                {
+                  left: current.position().left,
+                  width: current.outerWidth(),
+                },
+                300
+              );
+            });
+          }
+        });
+      });
+
+      function sharePage() {
+        if (navigator.share) {
+          navigator.share({
+            title: "This is TradeDutyRefund",
+            text: "Check out our newest presentation and find out how much money TDR can get you back.",
+            url: "${{ ebook.url }}$",
+          });
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+{
+  "title": "Trade Duty Refund - Rimborso dei dazi doganali su resi internazionali e merce non utilizzata",
+  "description": "STrade Duty Refund è un esperto globale di rimborsi doganali. Vi aiutiamo a recuperare i dazi doganali pagati sulle vostre importazioni nell'UE, negli USA e nel Regno Unito. Contattateci!",
+  "url": "https://it.tradedutyrefund.com",
+  "hero": {
+    "title": "Rimborso dei dazi doganali",
+    "subtitle": "nell'UE, UK e US",
+    "desc": "Rimborso dei dazi doganali sui prodotti restituiti e non utilizzati in tutto il mondo"
+  },
+  "whatTDRoffers": {
+    "title": "Il valore che TDR apporta agli e-tailer",
+    "desc1": "I siti di e-commerce utilizzano TDR per ottenere in modo semplice e veloce il rimborso dei dazi pagati sulla merce restituita.",
+    "desc2": "Le dogane dell'UE, del Regno Unito e degli Stati Uniti dispongono di processi di restituzione dei dazi doganali, ma la loro applicazione è lenta e noiosa.",
+    "desc3": "Non con TradeDutyRefund.",
+    "desc4": "Stai al passo con la concorrenza e sfrutta la tecnologia TDR per ottenere rimborsi più grandi, più veloci e meno rischiosi.",
+    "picUrl": "images/tdr/whyYouNeedItIT.webp",
+    "imageAlt": "Illustra il motivo per cui un venditore internazionale ha bisogno di TDR per ridurre i costi logistici dei resi e migliorare il flusso di cassa."
+  },
+  "eligibleCallOut": {
+    "title": "Puoi ottenere i tuoi rimborsi in questo momento?",
+    "buttonLabel": "Dai un'occhiata al nostro elenco di criteri"
+  },
+  "easyProcess": {
+    "title": "Ci occupiamo dell'intera procedura.",
+    "subtitle": "Tutto quello che devi fare è fornire un elenco degli articoli restituiti e concentrarti sulla tua attività.",
+    "imageUrl": "images/tdr/balanceGraphicIT.svg",
+    "imageAlt": "Una bilancia con pesi disuguali che simboleggia la complessità dell'autodichiarazione dei dazi doganali rispetto al processo TDR leggero"
+  },
+  "advantage": {
+    "title": "I + TDR",
+    "hoursAbrev": "h",
+    "hoursDesc": "Ore risparmiate ogni anno nel processo di richiesta di risarcimento",
+    "accuracy": "Sinistri più accurati con l'automazione TDR",
+    "efficiency": "Presentazione più rapida dei sinistri grazie alla nostra raccolta e analisi integrata dei dati",
+    "refundRatio": "Rimborso dei diritti di destinazione."
+  },
+  "valueSection": {
+    "title": "Scopri quanto puoi risparmiare.",
+    "desc1": "Il nostro colloquio gratuito e senza impegno di 30 minuti include una revisione del nostro servizio, del vostro processo di vendita internazionale e dei vostri dati finanziari da parte di uno dei nostri esperti doganali.",
+    "desc2": "Parla con uno dei nostri esperti per vedere come l'esternalizzazione delle tue richieste a TDR può aiutarti a recuperare più denaro dalla dogana e aiutarti a recuperare il tempo necessario per gestire la tua attività.",
+    "button": "Fissa un appuntamento"
+  },
+  "videoSection": {
+    "title": "Promuovi il tuo sviluppo internazionale",
+    "desc": "Scopri come TDR ti aiuta a recuperare la tua quota di rimborsi doganali che le dogane dell'UE e del Regno Unito concedono ogni anno e come TDR ti aiuta ad aumentare i profitti più velocemente con processi integrati basati sull'intelligenza artificiale.",
+    "poster": "images/tdr/TDR-Overview-IT-01 Poster.jpg",
+    "url": "images/tdr/TDR-IT.mp4"
+  },
+  "qualifSection": {
+    "title": "Siamo pronti a lavorare insieme?",
+    "subtitle": "Probabilmente hai già diritto ai rimborsi dei dazi. Dai un'occhiata tu stesso.",
+    "cond1": "Vendi dall'estero nel Regno Unito, UE o negli Stati Uniti",
+    "cond2": "La maggior parte o tutti gli ordini sono imponibili",
+    "cond3": "I dazi all'importazione sono pagati da un'unica società",
+    "cond4": "Le merci restituite vengono esportate",
+    "cond5": "È possibile generare un elenco di articoli restituiti con le informazioni doganali di base"
+  },
+  "appointSection": {
+    "title": "Contattaci",
+    "subtitle": "Parliamone.",
+    "desc1": "Indipendentemente dal fatto che tu rispetti pienamente i criteri dell'elenco o soddisfi solo determinati punti, il tuo prossimo passo è lavorare con uno dei nostri esperti per determinare come recuperare il denaro che ti è dovuto il più rapidamente possibile.",
+    "desc2": "Un primo incontro di 30 minuti, gratuito e senza impegno, ci permetterà di quantificare il valore che TDR apporta al tuo servizio, di comprendere il tuo processo di vendita internazionale e di validare le informazioni relative ai resi che possiedi.",
+    "desc3": "Parla con uno dei nostri esperti per scoprire in che modo l'esternalizzazione della tua amministrazione a TDR ti consente di ottenere più denaro dalla dogana e più velocemente.",
+    "desc4": "Seleziona le fasce orarie disponibili per fissare un appuntamento."
+  },
+  "tawkID": "6527B264EB150B3FB9A0A8BD/1HCH1M00"
+}

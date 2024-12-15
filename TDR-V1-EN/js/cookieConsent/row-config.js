@@ -1,0 +1,1 @@
+document.documentElement.classList.add("cc--darkmode"),CookieConsent.hide(),CookieConsent.acceptCategory("all");

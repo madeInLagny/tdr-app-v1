@@ -1,0 +1,67 @@
+{
+  "title": "Trade Duty Refund - Customs Duty Refund on International Returns and Unused Merchandise",
+  "description": "Cut down the costs of your cross-border returns with Trade Duty Refund! E-commerce sellers can now reclaim customs duties on returned goods, thanks to our global agreements with customs authorities. Maximize your business potential by recovering the import duties you've already paid.",
+  "url": "https://tradedutyrefund.com",
+  "hero": {
+    "title": "Worldwide",
+    "subtitle": "Duty Drawback",
+    "desc": "Reclaim Customs Duties On Returned and Unused Merchandise in the US, the EU and the UK"
+  },
+  "whatTDRoffers": {
+    "title": "How TDR Helps Retailers",
+    "desc1": "Retailers use TDR to easily recoup duties paid on returned goods.",
+    "desc2": "UE, UK and US Customs have duty drawback processes in place but applying has been difficult and slow.",
+    "desc3": "Not with TradeDutyRefund.",
+    "desc4": "Stay ahead of competition and leverage TDR to get more money, faster, and with less risk.",
+    "picUrl":"images/tdr/whyYouNeedItEN.webp",
+    "imageAlt": "Illustrates the reason a crossborder retailer need TDR to reduce reverse logistics costs and improve cash flow."
+  },
+  "eligibleCallOut": {
+    "title": "Are you ready for duty refund?",
+    "buttonLabel": "Check our simple criteria list"
+  },
+  "easyProcess": {
+    "title": "We've made it really easy for you.",
+    "subtitle": "All you need to do is provide a list of returned items and focus on your business.",
+    "imageUrl": "images/tdr/balanceGraphicEN.svg",
+    "imageAlt": "A balance with unequal weights that symbolizes the complexity of customs duties self-claiming vs the lightweight TDR process"
+  },
+  "advantage": {
+    "title": "The TDR Advantage",
+    "hoursAbrev": "h",
+    "hoursDesc": "Hours saved each year during your claim process",
+    "accuracy": "More accurate claims with TDR automation",
+    "efficiency": "Faster claim submission with our integrated data collection and analysis",
+    "refundRatio": "Of destination duties refunded."
+  },
+  "valueSection": {
+    "title": "Find Out How Much Money You Can Get In Duty Refund.",
+    "desc1": "Your free 30 mins introduction talk includes a detailed review of our service, your international trade business process and financial data by one of our Duty Refund experts.",
+    "desc2": "Talk to one of our experts to see how outsourcing your duty refund claims to TDR can get you more money back from Customs and help you regain the time you need to run your business.",
+    "button": "Schedule A Talk"
+  },
+  "videoSection": {
+    "title": "Fuel Your International Expansion",
+    "desc": "Watch how TDR helps you capture your share of the duty refunds that EU, UK and US authorities give away every year, and how TDR helps you increase profit faster through integrated and AI driven processes.",
+    "poster": "images/tdr/TDR-Overview-EN-01 Poster.jpg",
+    "url": "images/tdr/TDR-EN.mp4"
+  },
+  "qualifSection": {
+    "title": "Are We A Good Fit?",
+    "subtitle": "Check how many of these conditions your business model matches.",
+    "cond1": "You sell from abroad to the UK, the EU or the US",
+    "cond2": "Most or all orders are dutiable",
+    "cond3": "Import duties are paid by a single entity",
+    "cond4": "Returned goods are exported",
+    "cond5": "You can generate a list of returned items with basic customs information"
+  },
+  "appointSection": {
+    "title": "Get In Touch",
+    "subtitle": "Let's chat.",
+    "desc1": "Whether you fully comply or only meet some requirements, your next step is to validate your readiness to recoup the duties you deserve with one of our experts.",
+    "desc2": "Your free 30-mins consultation includes a review of your business model, processes, and customs data that you have access to.",
+    "desc3": "Talk to one of our experts to see how outsourcing your duty refund claims to TDR can get you more money back from Customs and help you regain the time you need to run your business.",
+    "desc4": "Select any available slots to schedule a conversation."
+  },
+  "tawkID": "6527b233eb150b3fb9a0a8a6/1hchh06rt"
+}

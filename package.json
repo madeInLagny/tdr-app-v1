@@ -1,0 +1,32 @@
+{
+  "devDependencies": {
+    "critical": "^5.1.1",
+    "del": "^7.1.0",
+    "fancy-log": "^2.0.0",
+    "gh-pages": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-i18n-localize": "^1.4.0",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "name": "tdr",
+  "version": "1",
+  "description": "The easy and fast duty refund process",
+  "main": "index.html",
+  "scripts": {
+    "buildEN": "gulp build_EN",
+    "buildFR": "gulp build_FR",
+    "buildIT": "gulp build_IT",
+    "build": "npm run buildEN && npm run buildFR && npm run buildIT"
+  },
+  "author": "madeInLagny",
+  "license": "ISC",
+  "dependencies": {
+    "@parvineyvazov/json-translator": "^1.7.0",
+    "klaro": "^0.7.18",
+    "vcf": "^2.1.1"
+  }
+}

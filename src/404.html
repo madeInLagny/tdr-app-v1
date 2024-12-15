@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- Lang is required by Klaro Cookie Consent -->
+<html dir="ltr" lang="${{ common.language }}$" xmlns:og="http://ogp.me/ns#">
+
+<head>
+	<!-- Google Tag Manager modified to comply with cookie consent-->
+	@@include('blocks/cookieConsent/headScript.html')
+	<!-- End Google Tag Manager -->
+
+	<!-- SEO Metatags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="x-ua-compatible" content="IE=edge">
+
+	<title>${{ 404.title }}$</title>
+	<meta name="description" content="${{ 404.description }}$">
+	<meta name="robots" content="noindex">
+
+	<meta property="og:locale" content="${{ common.language }}$">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="${{ 404.title }}$">
+	<meta property="og:description" content="${{ 404.description }}$">
+	<meta property="og:url" content="${{ 404.url }}$">
+	<meta property="og:site_name" content="TradeDutyRefund.com">
+	<meta property="og:image" content="images/tdr/OGImage.jpg">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="675">
+	<meta property="og:image:type" content="image/jpg">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="images/tdr/OGImage.jpg">
+
+	<!-- CSS imports -->
+	@@include('blocks/cssImports.html')
+	<!-- end of CSS imports -->
+
+	<!-- HREF -->
+	<link rel="alternate" hreflang="en" href="https://tradeDutyRefund.com/404.html" />
+	<link rel="alternate" hreflang="fr" href="https://fr.tradeDutyRefund.com/404.html" />
+	<link rel="alternate" hreflang="it" href="https://it.tradeDutyRefund.com/404.html" />
+	<link rel="alternate" hreflang="x-default" href="https://tradeDutyRefund.com/404.html" />
+
+</head>
+
+<body class="stretched">
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper">
+
+		<!-- header -->
+		<header id="header" class="full-header transparent-header" data-sticky-class="not-dark">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row">
+
+						<!-- Logo
+        ============================================= -->
+						<div id="logo">
+							<a href="${{ common.homeUrl }}$" class="p-1">
+								<img class="logo-default" src="images/tdr/logo.webp" alt="${{ common.logoAlt }}$">
+							</a>
+						</div><!-- #logo end -->
+
+						<div class="primary-menu-trigger">
+							<button class="cnvs-hamburger" type="button" title="Open Mobile Menu">
+								<span class="cnvs-hamburger-box"><span class="cnvs-hamburger-inner"></span></span>
+							</button>
+						</div>
+
+						<!-- Primary Navigation
+        ============================================= -->
+						<nav class="primary-menu">
+
+							<ul class="menu-container">
+								<li class="menu-item">
+									<a class="menu-link" href="${{ common.url_blog }}$">
+										<div>Blog</div>
+									</a>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="${{ common.url_appointment }}$">
+										<div>${{ common.letsTalk }}$</div>
+									</a>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="${{ common.altVersionUrl }}$">
+										<div>${{ common.altVersionLabel }}$</div>
+									</a>
+								</li>
+							</ul>
+
+						</nav><!-- #primary-menu end -->
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header>
+
+		<section id="slider" class="slider-element min-vh-60 min-vh-md-100 dark error404-wrap include-header"
+			style="background: url(images/tdr/404.webp) center;">
+			<div class="slider-inner">
+
+				<div class="vertical-middle">
+					<div class="container text-center py-5 py-md-0">
+
+						<div class="error404">404</div>
+
+						<div class="heading-block border-bottom-0">
+							<h1 class="display-4 fw-bold">${{ 404.main }}$</h1>
+						</div>
+						<a href="${{ common.homeUrl }}$"
+							class="button button-3d button-rounded text-uppercase fw-bold ls-1 primary">${{ 404.btnLabel }}$</a>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- Footer -->
+		@@include('blocks/footer.html')
+		<!-- end Footer -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Javascripts
+	============================================= -->
+	<!-- CookieConsentJs -->
+	@@include('blocks/cookieConsent/cookieConsentScript.html')
+
+	<script src="js/functions.js"></script>
+
+	<!-- Tawk Chatbox -->
+@@include('blocks/tawk.html')
+
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+{
+  "title": "Trade Duty Refund - Remboursement des droits de douane sur les retours internationaux et les marchandises inutilisées",
+  "description": "Trade Duty Refund est un expert mondial en matière de remboursement des droits de douane. Nous vous aidons à récupérer les droits de douane que vous avez payés sur vos importations dans l'UE, aux États-Unis et au Royaume-Uni. Contactez nous !",
+  "url": "https://fr.tradedutyrefund.com",
+  "hero": {
+    "title": "Duty Drawback",
+    "subtitle": "en EU, UK et US",
+    "desc": "Obtenez le remboursement des droits de douane sur les produits retournés et non utilisés à travers le monde."
+  },
+  "whatTDRoffers": {
+    "title": "La valeur que TDR apporte aux e-commerçants",
+    "desc1": "Les sites e-commerce utilisent TDR pour obtenir facilement et rapidement le remboursement des droits payés sur les marchandises retournées.",
+    "desc2": "En Union Européenne et au Royaume-Uni, des procédures de remboursement existent mais leur application est lente et fastidieuse.",
+    "desc3": "Pas avec TradeDutyRefund.",
+    "desc4": "Gardez une longueur d’avance sur la concurrence et tirez parti de la technologie TDR pour obtenir des remboursements plus importants, plus rapides et avec moins de risques.",
+    "picUrl": "images/tdr/whyYouNeedItFR.webp",
+    "imageAlt": "Illustre la raison pour laquelle un vendeur à l'international a besoin de TDR pour réduire ses coûts de logistique retour et améliorer ses flux de trésorerie."
+  },
+  "eligibleCallOut": {
+    "title": "Pouvez-vous obtenir vos remboursements dès maintenant?",
+    "buttonLabel": "Consultez notre liste de critères"
+  },
+  "easyProcess": {
+    "title": "Nous nous chargeons de toute la procédure.",
+    "subtitle": "Vous n'avez qu'à fournir une liste d'articles retournés et vous concentrer sur votre activité.",
+    "imageUrl": "images/tdr/balanceGraphicFR.svg",
+    "imageAlt": "Une balance avec des poids inégaux qui symbolise la complexité de l’auto-déclaration des droits de douane par rapport au processus léger de TDR"
+  },
+  "advantage": {
+    "title": "Les + TDR",
+    "hoursAbrev": "h",
+    "hoursDesc": "Heures économisées chaque année en procédure de réclamation",
+    "accuracy": "Réclamations plus précises grâce à l’automatisation TDR",
+    "efficiency": "Soumission plus rapide des réclamations grâce à notre collecte et analyse intégrées des données",
+    "refundRatio": "Des droits de destination remboursés."
+  },
+  "valueSection": {
+    "title": "Découvrez combien vous pouvez économiser.",
+    "desc1": "Notre entretien gratuit et sans engagement de 30 minutes comprend une revue de notre service, de votre processus de ventes à l'international et de vos données financières par l’un de nos experts douane.",
+    "desc2": "Parlez à l’un de nos experts pour voir comment l’externalisation de vos demandes à TDR peut vous permettre de récupérer plus d’argent des douanes et vous aider à retrouver le temps dont vous avez besoin pour gérer votre entreprise.",
+    "button": "Prendre rendez-vous"
+  },
+  "videoSection": {
+    "title": "Boostez votre développment international",
+    "desc": "Découvrez comment TDR vous aide à récupérer votre part des remboursements de droits que les douanes de l’UE, du Royaume-Uni et des US accordent chaque année, et comment TDR vous aide à augmenter vos bénéfices plus rapidement grâce à des processus intégrés basés sur l’IA.",
+    "poster": "images/tdr/TDR-Overview-FR-01 Poster.jpg",
+    "url": "images/tdr/TDR-FR.mp4"
+  },
+  "qualifSection": {
+    "title": "Sommes nous prêts à travailler ensemble?",
+    "subtitle": "Vous êtes probablement déjà éligible aux remboursement des droits. Vérifiez par vous-même.",
+    "cond1": "Vous vendez de l’étranger vers le Royaume-Uni, l’UE ou les US",
+    "cond2": "La plupart ou la totalité des commandes sont taxables",
+    "cond3": "Les droits à l’importation sont payés par une seule société",
+    "cond4": "Les marchandises retournées sont exportées",
+    "cond5": "Vous pouvez générer une liste d’articles renvoyés avec des informations douanières de base"
+  },
+  "appointSection": {
+    "title": "Contactez-nous",
+    "subtitle": "Parlons-en.",
+    "desc1": "Que vous vous conformiez entièrement aux critères de la liste ou que vous ne répondiez qu’à certains points, votre prochaine étape est de définir avec l’un de nos experts comment récupérer au plus vite les sommes qui vous sont dues.",
+    "desc2": "Un premier entretien de 30 minutes, gratuit et sans engagement, nous permettra de quantifier la valeur que TDR apporte à votre service, de comprendre votre process de ventes à l'international et de valider les informations relatives aux retours dont vous disposez.",
+    "desc3": "Parlez à l’un de nos experts pour voir comment l’externalisation de votre admin à TDR vous permet de récupérer plus d’argent des douanes et plus rapidement.",
+    "desc4": "Sélectionnez les créneaux disponibles pour convenir d'un rendez-vous."
+  },
+  "tawkID": "6527b264eb150b3fb9a0a8bd/1hchh1m00"
+}

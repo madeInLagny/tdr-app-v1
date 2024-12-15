@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<!-- Lang is required by Cookie Consent -->
+<html
+  dir="ltr"
+  lang="${{ common.language }}$"
+  xmlns:og="http://opengraphprotocol.org/schema/"
+>
+  <head>
+    <!-- Google Tag Manager modified to comply with cookie consent-->
+    @@include('blocks/cookieConsent/headScript.html')
+    <!-- End Google Tag Manager -->
+
+    <!-- SEO Metatags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
+
+    <title>${{ thisIsTDR.title }}$</title>
+    <meta
+      name="description"
+      content="${{ thisIsTDR.description }}$"
+      xmlns:og="http://opengraphprotocol.org/schema/"
+    />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta property="og:locale" content="${{ common.language }}$" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="${{ thisIsTDR.title }}$"
+      xmlns:og="http://opengraphprotocol.org/schema/"
+    />
+    <meta
+      property="og:description"
+      content="${{ thisIsTDR.description }}$"
+      xmlns:og="http://opengraphprotocol.org/schema/"
+    />
+    <meta
+      property="og:url"
+      content="${{ thisIsTDR.url }}$"
+      xmlns:og="http://opengraphprotocol.org/schema/"
+    />
+    <meta property="og:site_name" content="TradeDutyRefund.com" />
+    <meta
+      property="og:image"
+      content="https://tradedutyrefund.com/images/tdr/OGImage.jpg"
+      xmlns:og="http://opengraphprotocol.org/schema/"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:image"
+      content="https://tradedutyrefund.com/images/tdr/OGImage.jpg"
+    />
+    <meta property="twitter:domain" content="tradedutyrefund.com" />
+    <meta property="twitter:url" content="https://tradedutyrefund.com" />
+    <meta name="twitter:title" content="${{ thisIsTDR.title }}$" />
+    <meta name="twitter:description" content="${{ thisIsTDR.description }}$" />
+    <meta
+      name="twitter:image"
+      content="https://tradedutyrefund.com/images/tdr/OGImage.jpg"
+    />
+
+    <!-- CSS imports -->
+    @@include('blocks/cssImports.html')
+    <!-- end of CSS imports -->
+
+    <!-- HREF -->
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://tradeDutyRefund.com/thisIsTDR.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="fr"
+      href="https://fr.tradeDutyRefund.com/thisIsTDR.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="it"
+      href="https://it.tradeDutyRefund.com/thisIsTDR.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://tradeDutyRefund.com/thisIsTDR.html"
+    />
+
+    <style>
+      body {
+        height: 100dvh;
+      }
+
+      @media (min-width: 992px) {
+        .morph-marker {
+          --cnvs-morph-height: 3px;
+          --cnvs-morph-duration: 0.3s;
+          position: absolute;
+          display: block;
+          background: var(--cnvs-themecolor);
+          height: var(--cnvs-morph-height);
+          border-radius: var(--bs-border-radius);
+          transition: all var(--cnvs-morph-duration);
+        }
+
+        .morph-bg .morph-marker {
+          --cnvs-morph-height: 100%;
+          opacity: 0.1;
+          bottom: 0 !important;
+        }
+
+        .morph-bg .menu-link {
+          position: relative;
+          --cnvs-primary-menu-padding-y: 11px;
+          --cnvs-primary-menu-hover-color: var(--cnvs-primary-menu-color);
+          z-index: 1;
+        }
+      }
+      .fitsHeight {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .cnvs-hamburger {
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+      }
+    </style>
+  </head>
+
+  <body class="stretched block-nav-header">
+    <!-- Document Wrapper
+    ============================================= -->
+    <div id="wrapper" class="fitsHeight">
+      <!-- Header
+      ============================================= -->
+      <header id="header" class="header-size-md">
+        <div id="header-wrap" class="border-bottom-0">
+          <div class="container position-relative">
+            <div class="header-row justify-content-center">
+              <!-- Primary Navigation icon in mobile
+              ============================================= -->
+              <div class="primary-menu-trigger">
+                <button
+                  class="cnvs-hamburger"
+                  type="button"
+                  title="Open Mobile Menu"
+                >
+                  Menu
+                  <span class="cnvs-hamburger-box"
+                    ><span class="cnvs-hamburger-inner"></span
+                  ></span>
+                </button>
+              </div>
+
+              <!-- Primary Navigation
+              ============================================= -->
+              <nav class="primary-menu">
+                <ul class="menu-container">
+                  <li class="menu-item current">
+                    <a class="menu-link" href="/"
+                      ><div>Visit TradeDutyRefund.com</div></a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a href class="menu-link" onclick="sharePresentation()">
+                      <div>Share This Presentation</div>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="https://zcal.co/jmontpert/websiteLink"
+                      ><div>Schedule an introduction call</div></a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a
+                      class="menu-link"
+                      href="https://www.linkedin.com/company/trade-duty-refund"
+                      ><div>Follow us on LinkedIn</div></a
+                    >
+                  </li>
+                  <div class="morph-marker"></div>
+                </ul>
+              </nav>
+              <!-- #primary-menu end -->
+            </div>
+          </div>
+        </div>
+        <div class="header-wrap-clone"></div>
+      </header>
+      <!-- #header end -->
+      <iframe
+        src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGJOYKBGPU&#x2F;q6omixpT3x1uthRiAvJGzQ&#x2F;view?embed"
+        frameborder="0"
+        width="100%"
+        height="100%"
+        allow="fullscreen"
+        allowfullscreen="true"
+        mozallowfullscreen="true"
+        webkitallowfullscreen="true"
+      ></iframe>
+    </div>
+    <!-- #wrapper end -->
+
+    <!-- JavaScripts
+    ============================================= -->
+    <script src="js/jquery.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+    <!-- CookieConsentJs -->
+    @@include('blocks/cookieConsent/cookieConsentScript.html')
+
+    <!-- Tawk Chatbox -->
+    @@include('blocks/tawk.html')
+
+    <script>
+      jQuery(window).on("load", function () {
+        jQuery(".primary-menu").each(function () {
+          let menuEl = jQuery(this),
+            marker = menuEl.find(".morph-marker"),
+            current = menuEl.find(".current");
+
+          // Initialize the marker position and the active class
+          current.addClass("active");
+
+          marker.css({
+            // Place the marker in the middle of the border
+            bottom: -(marker.height() / 2),
+            left: current.position().left,
+            width: current.outerWidth(),
+          });
+
+          if (Modernizr.csstransitions) {
+            // console.log("using css3 transitions");
+            menuEl.find(".menu-item").mouseover(function () {
+              var self = jQuery(this),
+                offsetLeft = self.position().left,
+                // Use the element under the pointer OR the current page item
+                width = self.outerWidth() || current.outerWidth(),
+                // Ternary operator, because if using OR when offsetLeft is 0, it is considered a falsy value, thus causing a bug for the first element.
+                left =
+                  offsetLeft == 0 ? 0 : offsetLeft || current.position().left;
+              // Play with the active class
+              menuEl.find(".active").removeClass("active");
+              self.addClass("active");
+              marker.css({
+                left: left,
+                width: width,
+              });
+            });
+
+            // When the mouse leaves the menu
+            menuEl.find(".menu-container").mouseleave(function () {
+              // remove all active classes, add active class to the current page item
+              menuEl.find(".active").removeClass("active");
+              current.addClass("active");
+              // reset the marker to the current page item position and width
+              marker.css({
+                left: current.position().left,
+                width: current.outerWidth(),
+              });
+            });
+          } else {
+            menuEl.find(".menu-item").mouseover(function () {
+              var self = jQuery(this),
+                offsetLeft = self.position().left,
+                // Use the element under the pointer OR the current page item
+                width = self.outerWidth() || current.outerWidth(),
+                // Ternary operator, because if using OR when offsetLeft is 0, it is considered a falsy value, thus causing a bug for the first element.
+                left =
+                  offsetLeft == 0 ? 0 : offsetLeft || current.position().left;
+              // Play with the active class
+              menuEl.find(".active").removeClass("active");
+              self.addClass("active");
+              marker.stop().animate(
+                {
+                  left: left,
+                  width: width,
+                },
+                300
+              );
+            });
+
+            // When the mouse leaves the menu
+            menuEl.find(".menu-container").mouseleave(function () {
+              // remove all active classes, add active class to the current page item
+              menuEl.find(".active").removeClass("active");
+              current.addClass("active");
+              // reset the marker to the current page item position and width
+              marker.stop().animate(
+                {
+                  left: current.position().left,
+                  width: current.outerWidth(),
+                },
+                300
+              );
+            });
+          }
+        });
+      });
+
+      function sharePresentation() {
+        if (navigator.share) {
+          navigator.share({
+            title: "This is TradeDutyRefund",
+            text: "Check out our newest presentation and find out how much money TDR can get you back.",
+            url: "${{ thisIsTDR.url }}$",
+          });
+        }
+      }
+    </script>
+  </body>
+</html>

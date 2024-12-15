@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<!-- Lang is required by Cookie Consent -->
+<html dir="ltr" lang="${{ common.language }}$" xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+	<!-- Google Tag Manager modified to comply with cookie consent-->
+	@@include('blocks/cookieConsent/headScript.html')
+	<!-- End Google Tag Manager -->
+
+	<!-- SEO Metatags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="x-ua-compatible" content="IE=edge">
+
+	<title>${{ index.title }}$</title>
+	<meta name="description" content="${{ index.description }}$" xmlns:og="http://opengraphprotocol.org/schema/">
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+	<meta property="og:locale" content="${{ common.language }}$">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="${{ index.title }}$" xmlns:og="http://opengraphprotocol.org/schema/">
+	<meta property="og:description" content="${{ index.description }}$" xmlns:og="http://opengraphprotocol.org/schema/">
+	<meta property="og:url" content="${{ index.url }}$" xmlns:og="http://opengraphprotocol.org/schema/">
+	<meta property="og:site_name" content="TradeDutyRefund.com">
+	<meta property="og:image" content="https://tradedutyrefund.com/images/tdr/OGImage.jpg" xmlns:og="http://opengraphprotocol.org/schema/">
+	<!-- The logo meta tag is required by https://dashboard.clearbit.com/docs#logo-api -->
+	<meta property="og:logo" content="https://tradedutyrefund.com/images/tdr/logo.png">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="https://tradedutyrefund.com/images/tdr/OGImage.jpg">
+	<meta property="twitter:domain" content="tradedutyrefund.com">
+	<meta property="twitter:url" content="https://tradedutyrefund.com">
+  <meta name="twitter:title" content="${{ index.title }}$">
+  <meta name="twitter:description"  content="${{ index.description }}$">
+  <meta name="twitter:image" content="https://tradedutyrefund.com/images/tdr/OGImage.jpg">
+
+	<!-- CSS imports -->
+	@@include('blocks/cssImports.html')
+	<!-- end of CSS imports -->
+
+	<!-- Plugins/Components CSS -->
+	<link rel="preload" href="css/swiper.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript>
+		<link rel="stylesheet" href="css/swiper.css">
+	</noscript>
+
+	<link rel="canonical" href="${{ index.url }}$" />
+
+	<!-- HREF -->
+	<link rel="alternate" hreflang="en" href="https://tradeDutyRefund.com" />
+	<link rel="alternate" hreflang="fr" href="https://fr.tradeDutyRefund.com" />
+	<link rel="alternate" hreflang="it" href="https://it.tradeDutyRefund.com" />
+	<link rel="alternate" hreflang="x-default" href="https://tradeDutyRefund.com" />
+
+	<link rel="icon" type="image/x-icon" href="${{ index.url }}$/src/images/tdr/favicon.ico">
+</head>
+
+<body class="stretched">
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper">
+
+		<!-- header -->
+		@@include('blocks/header.html')
+		<!-- end of header -->
+
+		<section id="slider"
+			class="slider-element slider-parallax swiper_wrapper min-vh-60 min-vh-md-100 include-header bg-black"
+			data-effect="fade">
+			<div class="slider-inner">
+
+				<div class="swiper-container swiper-parent">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide dark">
+							<div class="container">
+								<div class="slider-caption slider-caption-center">
+									<h2 data-animate="fadeInUp"> <span class="nocolor underliner viewport-detect is-in-viewport"
+											data-delay="1000">${{ index.hero.title }}$</span><br> <span class="color">
+											${{ index.hero.subtitle }}$</span></h2>
+									<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">${{ index.hero.desc }}$</p>
+									<div class="page-title-buttons mt-5" data-animate="fadeInUp" data-delay="200">
+										<button class="button button-border button-light rounded px-5 mb-0" data-scrollto="#video"
+											data-offset="60">${{ common.menuItem1 }}$ <i class="bi-stars ms-1"></i></button>
+										<button class="button button-border button-light rounded px-5 mb-0" data-scrollto="#appointment"
+											data-offset="60">${{ common.letsTalk }}$<i class="fa-solid fa-comment ms-1"></i></button>
+									</div>
+								</div>
+							</div>
+							<div class="video-wrap no-placeholder">
+								<video id="slide-video" class="bg-black" preload="auto" loop autoplay muted playsinline>
+									<source src='images/tdr/home-sd.mp4' type='video/mp4'>
+								</video>
+								<div class="video-overlay" style="background-color: rgba(0,0,0,0.55);">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<a href="#" data-scrollto="#content" class="one-page-arrow dark"><i
+						class="bi-chevron-down infinite animated fadeInDown"></i></a>
+
+			</div>
+		</section>
+
+
+		<!-- Content
+		============================================= -->
+		<!-- Keep this first section Id as 'content' -->
+		<section id="content">
+			<div class="content-wrap">
+
+				<!-- What's TDR Section -->
+
+				<div class="container py-md-6">
+					<div class="row align-items-center">
+						<div class="col-lg-5">
+							<h1 class="display-4 fw-bold color">${{ index.whatTDRoffers.title }}$</h1>
+							<p>${{ index.whatTDRoffers.desc1 }}$<br>${{ index.whatTDRoffers.desc2 }}$
+								<br><br>${{ index.whatTDRoffers.desc3 }}$<br>
+								<br><span class="color lead">${{ index.whatTDRoffers.desc4 }}$</span>
+							</p>
+						</div>
+						<div class="col-lg-7 align-self-center">
+							<div class="position-relative overflow-hidden">
+								<img class="lazy" data-src="${{ index.whatTDRoffers.picUrl }}$" data-animate="fadeInUp" data-delay="100"
+									alt="${{ index.whatTDRoffers.imageAlt }}$">
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+				<!-- Contact Us Call Out Dark -->
+
+				<div class="promo shadow-sm text-center p-5 p-md-6 border bg-color dark rounded-5">
+					<h1 class="mb-1 display-6 fw-bold">${{ index.eligibleCallOut.title }}$</span></h1>
+					<a href="#" class="button button-large button-rounded bg-white color" data-scrollto="#qualification">
+						${{ index.eligibleCallOut.buttonLabel }}$
+					</a>
+				</div>
+
+				<!-- How to steps -->
+
+				<div class="container py-2">
+
+					<div class="mt-6 text-center">
+						<h1 class="display-4 fw-bold color">${{ index.easyProcess.title }}$</h1>
+					</div>
+					<div class="row align-items-center">
+
+						<div class="col-lg-5">
+							<p class="text-center lead">${{ index.easyProcess.subtitle }}$</p>
+						</div>
+
+						<div class="col-lg-7 align-items-center" data-animate="fadeInUp" data-delay="100">
+							<img class="lazy" data-src="${{ index.easyProcess.imageUrl }}$" alt="${{ index.easyProcess.imageAlt }}$">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Advantages
+		============================================= -->
+		<section id="advantages">
+			<div class="section dark mb-0">
+				<div class="heading-block text-center">
+					<h1>${{ index.advantage.title }}$</h1>
+				</div>
+				<div class="row justify-content-md-center tdr-section tdr-counter-section ">
+					<div class="col">
+						<article class="tdr-counter__wrapper" itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+							<header>
+								<h3 itemprop="headline">
+									<span class="counter"><span data-from="100" data-to="150" data-refresh-interval="1"
+											data-speed="200">100</span></span> <span class="tdr-counter__after_title">
+										${{ index.advantage.hoursAbrev }}$</span>
+								</h3>
+							</header>
+							<div class="tdr-counter__content">
+								<div class="tdr-counter__markup-entry-content" itemprop="text"> ${{ index.advantage.hoursDesc }}$</div>
+							</div>
+						</article>
+					</div>
+					<div class="col">
+						<article class="tdr-counter__wrapper" itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+							<header>
+								<h3 itemprop="headline"> <span class="counter"><span data-from="1" data-to="35"
+											data-refresh-interval="1" data-speed="200">1</span></span> <span
+										class="tdr-counter__after_title">%</span> </h3>
+							</header>
+							<div class="tdr-counter__content">
+								<div class="tdr-counter__markup-entry-content" itemprop="text">${{ index.advantage.accuracy }}$</div>
+							</div>
+						</article>
+					</div>
+					<div class="col">
+						<article class="tdr-counter__wrapper" itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+							<header>
+								<h3 itemprop="headline"> <span class="counter"><span data-from="1" data-to="5" data-refresh-interval="1"
+											data-speed="200">1</span></span> <span class="tdr-counter__after_title">x</span> </h3>
+							</header>
+							<div class="tdr-counter__content">
+								<div class="tdr-counter__markup-entry-content" itemprop="text">${{ index.advantage.efficiency }}$</div>
+							</div>
+						</article>
+					</div>
+					<div class="col">
+						<article class="tdr-counter__wrapper" itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+							<header>
+								<h3 itemprop="headline"> <span class="counter"><span data-from="1" data-to="80"
+											data-refresh-interval="1" data-speed="200">1</span></span> <span
+										class="tdr-counter__after_title">%</span> </h3>
+							</header>
+							<div class="tdr-counter__content">
+								<div class="tdr-counter__markup-entry-content" itemprop="text">${{ index.advantage.refundRatio }}$</div>
+							</div>
+						</article>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- Find Out How Much You Can Get Call Out
+		============================================= -->
+		<section id="valueSection" class="slider-element lazy" data-bg="images/tdr/contactAnExpert-blue.webp"
+			style="background-position:top center no-repeat; background-size: cover;">
+
+			<div class="vertical-middle min-vh-100">
+				<div class="container py-5 py-md-0">
+					<div class="row">
+						<div id="valuePanel" class="col-lg-7 col-md-8 p-3 glassEffect text-white" data-animate="zoomIn"
+							data-delay="100">
+							<!-- <h6 class="text-uppercase ls-4 fw-normal op-05 text-white">Before Headings</h6> -->
+							<h1 class="display-4 fw-bold text-white">${{ index.valueSection.title }}$</h1>
+							<p class="lead mb-5 text-white">${{ index.valueSection.desc1 }}$<br>
+								${{ index.valueSection.desc2 }}$</p>
+							<a href="#" class="btn bg-white btn-lg border-width-2 px-4" data-scrollto="#appointment">
+								${{ index.valueSection.button }}$
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<!-- TDR Video
+		============================================= -->
+		<section id="video">
+			<div class="container py-4 py-md-6">
+
+				<div class="row justify-content-around align-items-center">
+					<div class="col-md-4">
+						<h1 class="display-4 fw-bold color">${{ index.videoSection.title }}$</h1>
+						<p>${{ index.videoSection.desc }}$</p>
+					</div>
+
+					<div class="col-md-6 p-0 rounded-5">
+						<video class="d-block w-100 lazy" poster="${{ index.videoSection.poster }}$" preload="none" controls>
+							<source data-src="${{ index.videoSection.url }}$" type='video/mp4'>
+						</video>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Qualification form starts-->
+		<section id="qualification">
+			<div class="container py-4 py-md-6">
+				<div class="row justify-content-center mw-lg mx-auto gutter-20">
+
+					<div class="col-md-6 text-center">
+						<h1 class="display-4 fw-bold color">${{ index.qualifSection.title }}$</h1>
+						<p class="text-larger text-muted">${{ index.qualifSection.subtitle }}$</p>
+					</div>
+
+					<div class="w-100 mt-4"></div>
+
+					<div class="col-md-3">
+						<div class="feature-box fbox-center fbox-plain px-4 py-5 rounded-3 bg-light border mx-0"
+							data-animate="fadeInUp" data-delay="100">
+							<div class="fbox-icon mb-3">
+								<a href="#"><i class="bi-flag-fill"></i></a>
+							</div>
+							<div class="fbox-content">
+								<h3>${{ index.qualifSection.cond1 }}$</h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="feature-box fbox-center fbox-plain px-4 py-5 rounded-3 bg-light border mx-0"
+							data-animate="fadeInUp" data-delay="100">
+							<div class="fbox-icon mb-3">
+								<a href="#"><i class="fa-solid fa-stamp"></i></a>
+							</div>
+							<div class="fbox-content">
+								<h3>${{ index.qualifSection.cond2 }}$</h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="feature-box fbox-center fbox-plain px-4 py-5 rounded-3 bg-light border mx-0"
+							data-animate="fadeInUp" data-delay="100">
+							<div class="fbox-icon mb-3">
+								<a href="#"><i class="bi-building-fill"></i></a>
+							</div>
+							<div class="fbox-content">
+								<h3>${{ index.qualifSection.cond3 }}$</h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="feature-box fbox-center fbox-plain px-4 py-5 rounded-3 bg-light border mx-0"
+							data-animate="fadeInUp" data-delay="100">
+							<div class="fbox-icon mb-3">
+								<a href="#"><i class="fa-solid fa-mail-reply"></i></a>
+							</div>
+							<div class="fbox-content">
+								<h3>${{ index.qualifSection.cond4 }}$</h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="feature-box fbox-center fbox-plain px-4 py-5 rounded-3 bg-light border mx-0"
+							data-animate="fadeInUp" data-delay="100">
+							<div class="fbox-icon mb-3">
+								<a href="#"><i class="fa-solid fa-list-alt"></i></a>
+							</div>
+							<div class="fbox-content">
+								<h3>${{ index.qualifSection.cond5 }}$</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Qualification form Ends-->
+
+		<!-- Appointment Section Starts
+		============================================= -->
+		<section id="appointment">
+			<div class="content-wrap py-0">
+
+				<div class="block-hero-20"
+					style="background-image: radial-gradient(circle at 85% 1%, rgba(var(--color-secondary), 0.31) 0%, rgba(var(--color-secondary), 0.31) 96%,transparent 96%, transparent 100%),radial-gradient(circle at 14% 15%, rgba(var(--color-secondary), 0.31) 0%, rgba(var(--color-secondary), 0.31) 1%,transparent 1%, transparent 100%),radial-gradient(circle at 60% 90%, rgba(var(--color-secondary), 0.31) 0%, rgba(var(--color-secondary), 0.31) 20%,transparent 20%, transparent 100%),radial-gradient(circle at 79% 7%, rgba(var(--color-secondary), 0.31) 0%, rgba(var(--color-secondary), 0.31) 78%,transparent 78%, transparent 100%),radial-gradient(circle at 55% 65%, rgba(var(--color-secondary), 0.31) 0%, rgba(var(--color-secondary), 0.31) 52%,transparent 52%, transparent 100%),linear-gradient(135deg, rgb(86,184,198),rgb(189,227,233)); padding: 130px 0">
+
+					<div class="container mw-lg">
+						<div class="row flex-md-row-reverse justify-content-between align-items-center">
+							<div class="col-lg-6" data-animate="zoomIn" data-delay="100">
+								<h5 class="ls-3 fw-normal text-black op-04 mb-2 text-uppercase">${{ index.appointSection.title }}$</h5>
+								<h3 class="mb-4 display-4 text-transform-none ls-0 fw-semibold">${{ index.appointSection.subtitle }}$
+								</h3>
+								<p class="text-larger">
+									${{ index.appointSection.desc1 }}$<br>
+									${{ index.appointSection.desc2 }}$<br>
+									${{ index.appointSection.desc3 }}$</p>
+								<div class="row">
+									<h3 class="fw-bold color">${{ index.appointSection.desc4 }}$</h3>
+								</div>
+							</div>
+							<div class="col-lg-6 mt-5 mt-lg-0" data-animate="slideInLeft" data-delay="100">
+								<div class="card border-0 p-4">
+									<div class="card-body py-4">
+										<div class="form-widget">
+											<!-- Zcal widget begin -->
+											<script type="text/javascript" async src="https://static.zcal.co/embed/v1/embed.js"></script>
+<div class="zcal-inline-widget">
+	<a href="https://zcal.co/i/mlqEPU0k">Introduction Call - Schedule a meeting</a></div>
+											<!-- Zcal widget end -->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</section><!-- Appointment Section Ends -->
+
+		<!-- Footer -->
+		@@include('blocks/footer.html')
+		<!-- end Footer -->
+
+	</div><!-- #wrapper end -->
+
+
+	<!-- Javascripts
+	============================================= -->
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			if (screen.width > 900) {
+				// Load the appropriate video src
+				const myvid = document.getElementById("slide-video");
+				myvid.src = "images/tdr/home-hd.mp4";
+				myvid.load();
+			}
+		}, { once: true });
+	</script>
+	<!-- CookieConsentJs -->
+	@@include('blocks/cookieConsent/cookieConsentScript.html')
+	<!-- Canvas Scripts -->
+	<script src="js/functions.js"></script>
+
+	<!-- Tawk Chatbox -->
+	@@include('blocks/tawk.html')
+
+</body>
+
+</html>
